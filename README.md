@@ -415,14 +415,13 @@ You might force application startup in foreground:
 
 - It seems to provide a slightly better user experience in macOS Big Sur to start the Java Runtime Environment in foreground. Otherwise, the tooltip on the Dock Icon shows `java` instead of the application name. 
   
-- We are not sure about further advantages or disadvantages about running in background / foreground. Therefore, we leave it up to you which method to choose. 
+- We are not sure about further advantages / disadvantages about running in background / foreground. Therefore, we leave it up to you which method to use. 
 
 
 Supported operating systems
 ---------------------------
 
 - Intended to be used on macOS (10.9 or newer)
-
 - Can be built for Linux or other Unix based systems, which might be useful for development and testing.
 
 
@@ -437,10 +436,8 @@ Third party components
 
 - [Go](https://golang.org/) v1.16
   [(BSD License)](https://golang.org/LICENSE)
-
 - [MacDriver](https://github.com/progrium/macdriver) v0.0.2
   [(MIT License)](https://raw.githubusercontent.com/progrium/macdriver/main/LICENSE)
-
 - [go-plist](https://github.com/DHowett/go-plist) v0.0.0-20201203080718-1454fab16a06
   [(BSD License)](https://raw.githubusercontent.com/DHowett/go-plist/master/LICENSE)
 
@@ -449,7 +446,5 @@ Further information
 -------------------
 
 - [*JavaMacLauncher* at GitHub](https://github.com/OpenIndex/JavaMacLauncher)
-
 - [Releases of *JavaMacLauncher*](https://github.com/OpenIndex/JavaMacLauncher/releases)
-
 - [Changelog of *JavaMacLauncher*](https://github.com/OpenIndex/JavaMacLauncher/blob/develop/CHANGELOG.md)
