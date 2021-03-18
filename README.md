@@ -45,6 +45,8 @@ Things to consider:
 
 - The icon used by the application bundle is located at `Contents/Resources/share/icon.icns`.
 
+- The splash image used during application startup is located at `Contents/Resources/share/splash.png`.
+
 In this scenario the application bundle descriptor `Contents/Info.plist` would look like this:
 
 ```xml
