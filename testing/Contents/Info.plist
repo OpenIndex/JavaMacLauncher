@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+
+        <key>CFBundleIdentifier</key>
+        <string>com.mycompany.myapplication</string>
+
+        <key>CFBundleName</key>
+        <string>MyApplication</string>
+
+        <key>CFBundleDisplayName</key>
+        <string>MyApplicationName</string>
+
+        <key>CFBundleVersion</key>
+        <string>1.2.3</string>
+
+        <key>CFBundlePackageType</key>
+        <string>APPL</string>
+
+        <key>CFBundleExecutable</key>
+        <string>JavaMacLauncher</string>
+
+        <key>CFBundleIconFile</key>
+        <string>share/icon.icns</string>
+
+        <key>LSMinimumSystemVersion</key>
+        <string>10.9</string>
+
+        <!-- Configure JavaMacLauncher. -->
+        <key>JavaMacLauncher</key>
+        <dict>
+
+            <!-- Set java home directory. -->
+            <key>JavaHome</key>
+            <string>Contents/Resources</string>
+
+            <!-- Set java command explicitly. -->
+            <key>JavaCommand</key>
+            <string>Contents/Resources/bin/java</string>
+
+            <!-- Set further java options. -->
+            <key>JavaOptions</key>
+            <array>
+                <string>-Dfile.encoding=UTF-8</string>
+            </array>
+
+            <!-- Set java class path entries. -->
+            <key>JavaClassPath</key>
+            <array>
+                <string></string>
+            </array>
+
+            <!-- Set java module path entries. -->
+            <key>JavaModulePath</key>
+            <array>
+                <string>Contents/Resources/modules</string>
+            </array>
+
+            <!-- Set application working directory. -->
+            <key>WorkingDirectory</key>
+            <string></string>
+
+            <!-- Set application command. -->
+            <key>ApplicationCommand</key>
+            <string>-m com.mycompany.myapplication/com.mycompany.myapplication.MyApplication</string>
+
+            <!-- Set further application command line arguments. -->
+            <key>ApplicationArguments</key>
+            <array>
+                <string></string>
+            </array>
+
+            <!-- Set minimum reserved heap space. -->
+            <key>HeapMinimum</key>
+            <string>32m</string>
+
+            <!-- Set maximum used heap space. -->
+            <key>HeapMaximum</key>
+            <string>512m</string>
+
+            <!-- Set application splash image. -->
+            <key>SplashImage</key>
+            <string>Contents/Resources/share/splash.png</string>
+
+            <!-- Set application name shown in the menu bar. -->
+            <key>DockName</key>
+            <dict>
+                <key>default</key>
+                <string>My Application</string>
+                <key>de</key>
+                <string>Mein Programm</string>
+                <key>es</key>
+                <string>Mi Programa</string>
+                <key>fr</key>
+                <string>Mon Programme</string>
+            </dict>
+
+            <!-- Set application icon shown in dock and menu bar. -->
+            <key>DockIcon</key>
+            <string>Contents/Resources/share/icon.icns</string>
+
+            <!-- Enable global menu bar. -->
+            <key>UseScreenMenuBar</key>
+            <true/>
+
+            <!-- Launch application in foreground. -->
+            <key>LaunchInForeground</key>
+            <true/>
+
+        </dict>
+    </dict>
+</plist>
