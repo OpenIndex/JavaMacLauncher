@@ -1,5 +1,5 @@
-JavaMacLauncher 1.1.0-SNAPSHOT
-==============================
+JavaMacLauncher 1.0.0
+=====================
 
 This application is a native Java application launcher written in [Go](https://golang.org/), that is intended for integration into a [macOS application bundle](https://en.wikipedia.org/wiki/Bundle_(macOS)). 
 
@@ -430,7 +430,7 @@ Supported operating systems
 License
 -------
 
-This application is licensed under the terms of the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html). Take a look at [`LICENSE.txt`](https://github.com/OpenIndex/JavaMacLauncher/blob/develop/LICENSE.txt) for the license text.
+This application is licensed under the terms of the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html). Take a look at [`LICENSE.txt`](https://github.com/OpenIndex/JavaMacLauncher/blob/master/LICENSE.txt) for the license text.
 
 
 Third party components
@@ -449,4 +449,4 @@ Further information
 
 - [*JavaMacLauncher* at GitHub](https://github.com/OpenIndex/JavaMacLauncher)
 - [Releases of *JavaMacLauncher*](https://github.com/OpenIndex/JavaMacLauncher/releases)
-- [Changelog of *JavaMacLauncher*](https://github.com/OpenIndex/JavaMacLauncher/blob/develop/CHANGELOG.md)
+- [Changelog of *JavaMacLauncher*](https://github.com/OpenIndex/JavaMacLauncher/blob/master/CHANGELOG.md)
