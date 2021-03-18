@@ -1,5 +1,5 @@
-JavaMacLauncher 1.0.0
-=====================
+JavaMacLauncher 1.1.0-SNAPSHOT
+==============================
 
 This application is a native Java application launcher written in [Go](https://golang.org/), that is intended for integration into a [macOS application bundle](https://en.wikipedia.org/wiki/Bundle_(macOS)). 
 
