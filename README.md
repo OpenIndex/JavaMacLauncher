@@ -423,7 +423,7 @@ You might force application startup in foreground:
 Supported operating systems
 ---------------------------
 
-- Intended to be used on macOS (10.9 or newer)
+- Intended to be used on macOS (10.9 or newer). Releases are compiled for x86-64.
 - Can be built for Linux or other Unix based systems, which might be useful for development and testing.
 
 
