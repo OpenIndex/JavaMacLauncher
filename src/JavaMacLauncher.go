@@ -24,7 +24,7 @@ import (
 	"strings"
 )
 
-const VERSION = "1.0.0"
+const VERSION = "1.1.0-SNAPSHOT"
 
 // Main structure of a plist file.
 type plistDataType struct {
