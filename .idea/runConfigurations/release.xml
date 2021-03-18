@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="release" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="JavaMacLauncher" />
+    <working_directory value="$PROJECT_DIR$" />
+    <go_parameters value="-o ../target/JavaMacLauncher" />
+    <envs>
+      <env name="CGO_CFLAGS" value="-mmacosx-version-min=10.9" />
+      <env name="CGO_LDFLAGS" value="-mmacosx-version-min=10.9 -s -w" />
+    </envs>
+    <kind value="DIRECTORY" />
+    <filePath value="$PROJECT_DIR$/src/JavaMacLauncher.go" />
+    <directory value="$PROJECT_DIR$/src" />
+    <option name="run" value="false" />
+    <method v="2" />
+  </configuration>
+</component>
