@@ -2,11 +2,11 @@
   <configuration default="false" name="run" type="GoApplicationRunConfiguration" factoryName="Go Application">
     <module name="JavaMacLauncher" />
     <working_directory value="$PROJECT_DIR$/testing" />
+    <go_parameters value="-o ../testing/Contents/MacOS/JavaMacLauncher" />
     <parameters value="debug" />
     <kind value="DIRECTORY" />
     <filePath value="$PROJECT_DIR$/src/JavaMacLauncher.go" />
     <directory value="$PROJECT_DIR$/src" />
-    <output_directory value="$PROJECT_DIR$/testing/Contents/MacOS" />
     <method v="2" />
   </configuration>
 </component>
